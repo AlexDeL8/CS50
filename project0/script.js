@@ -15,7 +15,6 @@ async function newTodo() {
 	itemCount++
 	await createListItem(newListItemText, itemCount)
 	itemCountSpan.innerHTML = itemCount
-
 }
 
 async function deleteTodo() {
